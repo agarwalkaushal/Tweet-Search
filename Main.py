@@ -52,6 +52,17 @@ def myTweets():
         tweets.append(status.text)
         c+=1
 
+    print()
+    print("Enter your search text: ",end="")
+    query = input().lower()
+    print()
+    print("Search results: ")
+    print()
+    for j in tweets:
+        
+        if query in j.lower():
+            print(j)
+
 def homeTweets():
     print()
     """
@@ -70,6 +81,18 @@ def homeTweets():
         print(c,". ",status.text)
         tweets.append(status.text)
         c+=1
+
+    print()
+    print("Enter your search text: ",end="")
+    query = input().lower()
+    print()
+    print("Search results: ")
+    print()
+    for j in tweets:
+        
+        if query in j.lower():
+            print(j)
+
 
 def usersTweets():
     print()
@@ -92,6 +115,17 @@ def usersTweets():
         tweets.append(status.text)
         c+=1
     
+    print()
+    print("Enter your search text: ",end="")
+    query = input().lower()
+    print()
+    print("Search results: ")
+    print()
+    for j in tweets:
+        
+        if query in j.lower():
+            print(j)
+
 
 
 while True:
