@@ -1,9 +1,9 @@
 import tweepy
 
-consumer_key = "9wMMydVttqCGk3ALuh4ZMTkQC"
-consumer_secret = "GYB4CJEZs5Jf29L7ZoFyENYdWAdn7Q83ERMe3dSlRW5z9EsiI4"
-access_token = "4681694112-j2EKYY58p3367gFmLfwx480bdfxr3KIB80drM7I"
-access_token_secret = "AeAJl5svwqeR542JICufARaC8FrZnNSbrv1GlgQ7uBW9S"
+consumer_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
+consumer_secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_token_secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -154,5 +154,6 @@ while True:
     elif option == "5":
         usersTweets()
     else:
-        print("Thank you for using Tweet-Search")
         break
+		
+print("Thank you for using Tweet-Search")
