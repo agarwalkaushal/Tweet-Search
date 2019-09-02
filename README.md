@@ -20,7 +20,7 @@ Things needed to run this app smoothly -
 - For access token, click ” Create my access token”. The page will refresh and generate access token.<br>
 
 <li> <b>Tweepy library</b>
-- Can be installed using <b><i>pip</i><b> command.<br>
+- Can be installed using <b><i>pip</i></b> command.<br>
 
 ````
 cmd> pip install tweepy
